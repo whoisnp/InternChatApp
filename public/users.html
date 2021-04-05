@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Users</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      #UsersList {
+        display: inline-block;
+        border-style: solid;
+        padding-right: 20px;
+      }
+      ul {
+        color: #9632d8;
+      }
+      .text-wrapper {
+        color: black;
+      }
+    </style>
   </head>
   <body>
+    <h1>List of active Users</h1>
     <div id="UsersList">
       <ul>
         <% users.forEach(function(user) { %>
